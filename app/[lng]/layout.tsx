@@ -28,7 +28,6 @@ export async function generateMetadata({
     title: params.lng === "en" ? "Viber" : "Viber",
     description: `${params.lng === "en" ? "Viber" : "Viber"}.`,
     metadataBase: new URL("https://kjxbyz.com"),
-    themeColor: "#FFF",
     icons: {
       icon: "/viber/logo.jpg",
     },

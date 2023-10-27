@@ -14,7 +14,6 @@ export async function generateMetadata({
     title: params.lng === "en" ? "Blog" : "博客",
     description: `${params.lng === "en" ? "Blog" : "博客"}.`,
     metadataBase: new URL("https://kjxbyz.com"),
-    themeColor: "#FFF",
     icons: {
       icon: "/viber/logo.jpg",
     },
