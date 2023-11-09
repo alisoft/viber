@@ -2,7 +2,8 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Precedent - Building blocks for your Next.js project";
+export const alt =
+  "Viber - A social application that supports web, desktop and mobile.";
 export const contentType = "image/png";
 
 export default async function OG() {
