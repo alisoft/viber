@@ -17,7 +17,7 @@ yarn install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000/viber/`:
+Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
@@ -31,6 +31,8 @@ yarn dev
 ```
 
 ## Production
+
+The production server runs at [https://kjxbyz.com/viber](https://kjxbyz.com/viber)
 
 Build the application for production:
 
