@@ -10,10 +10,11 @@ import GoogleAnalytics from "@/components/shared/google-analytics";
 // import CookieBanner from "@/components/shared/cookie-banner";
 import ScrollToTop from "@/components/layout/scroll-to-top";
 import { languages } from "@/i18n/settings";
-import { sfPro, inter } from "./fonts";
-import Particles from "@/app/[lng]/particles";
+import { basePath } from "@/constants";
 import Footer from "@/components/layout/footer";
-import { Providers } from "@/app/[lng]/providers";
+import { sfPro, inter } from "./fonts";
+import Particles from "./particles";
+import { Providers } from "./providers";
 
 const Header = dynamic(() => import("@/components/layout/header"), {
   ssr: false,
@@ -29,7 +30,7 @@ export async function generateMetadata({
     description: `${params.lng === "en" ? "Viber" : "Viber"}.`,
     metadataBase: new URL("https://kjxbyz.com"),
     icons: {
-      icon: "/viber/logo.jpg",
+      icon: `${basePath}/logo.jpg`,
     },
   };
 }
