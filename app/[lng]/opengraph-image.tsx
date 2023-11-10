@@ -29,7 +29,7 @@ export default async function OG() {
       >
         <img
           src={`${basePath}/logo.jpg`}
-          alt="Precedent Logo"
+          alt="Viber Logo"
           tw="w-20 h-20 mb-4 opacity-95"
         />
         <h1
@@ -44,7 +44,7 @@ export default async function OG() {
             letterSpacing: "-0.02em",
           }}
         >
-          Precedent
+          Viber
         </h1>
       </div>
     ),
