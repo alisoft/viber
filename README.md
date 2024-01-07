@@ -1,5 +1,7 @@
 # viber
 
+[![CodeFactor](https://www.codefactor.io/repository/github/viberapp/websites/badge)](https://www.codefactor.io/repository/github/viberapp/websites)
+
 ## Setup
 
 Make sure to install the dependencies:
