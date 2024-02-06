@@ -1,6 +1,6 @@
 # viber
 
-[![CodeFactor](https://www.codefactor.io/repository/github/viberapp/websites/badge)](https://www.codefactor.io/repository/github/viberapp/websites)
+[![CodeFactor](https://www.codefactor.io/repository/github/alisoft/viber/badge)](https://www.codefactor.io/repository/github/alisoft/viber)
 
 ## Setup
 
