@@ -1,7 +1,5 @@
 # viber
 
-[![CodeFactor](https://www.codefactor.io/repository/github/alisoft/viber/badge)](https://www.codefactor.io/repository/github/alisoft/viber)
-
 ## Setup
 
 Make sure to install the dependencies:
