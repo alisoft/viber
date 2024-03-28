@@ -11,9 +11,12 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@emotion/is-prop-valid": "^1.2.2",
     "@octokit/rest": "^20.0.2",
     "@radix-ui/react-popover": "^1.0.7",
     "@radix-ui/react-tooltip": "^1.0.7",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
     "accept-language": "^3.0.18",
     "classnames": "^2.5.1",
     "contentlayer": "^0.3.4",
@@ -33,12 +36,10 @@
     "react-i18next": "^14.1.0",
     "react-icons": "^5.0.1",
     "react-markdown": "^9.0.1",
-    "react-particles": "^2.12.2",
     "react-rough-notation": "^1.0.5",
     "react-wrap-balancer": "^1.1.0",
     "rehype-slug": "^6.0.0",
-    "tsparticles": "^2.12.0",
-    "tsparticles-engine": "^2.12.0",
+    "tsparticles": "^3.3.0",
     "use-debounce": "^10.0.0"
   },
   "devDependencies": {
