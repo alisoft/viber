@@ -16,6 +16,9 @@ import { sfPro, inter } from "./fonts";
 import Particles from "./particles";
 import { Providers } from "./providers";
 
+// 是否显示背景特效
+const NEXT_PUBLIC_SHOW_PARTICLES = process.env.NEXT_PUBLIC_SHOW_PARTICLES;
+
 const Header = dynamic(() => import("@/components/layout/header"), {
   ssr: false,
 });
@@ -59,7 +62,7 @@ export default async function RootLayout({
       >
         <NextTopLoader height={1} />
         <Providers>
-          <Particles />
+          {NEXT_PUBLIC_SHOW_PARTICLES && <Particles />}
           <Header lng={params.lng} />
           <main
             id="main"
