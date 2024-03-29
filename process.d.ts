@@ -8,5 +8,6 @@ declare namespace NodeJS {
     NEXT_PUBLIC_GH_REPO: string;
     NEXT_PUBLIC_COOKIE_BANNER_ID: string;
     NEXT_PUBLIC_SHOW_PARTICLES: string;
+    NEXT_PUBLIC_WEBSITE_GLOBAL_GRAY: string;
   }
 }
