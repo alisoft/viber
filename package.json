@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^1.2.2",
-    "@octokit/rest": "^20.0.2",
+    "@octokit/rest": "^20.1.0",
     "@radix-ui/react-popover": "^1.0.7",
     "@radix-ui/react-tooltip": "^1.0.7",
     "@tsparticles/engine": "^3.3.0",
