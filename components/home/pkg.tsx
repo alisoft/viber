@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Popover from "@/components/shared/popover";
 // import { useTranslation } from "@/i18n/client";
-import { LngProps } from "@/i18next-lng";
-import { Asset } from "@/types/release";
+import type { LngProps } from "@/types/i18next-lng";
+import type { Asset } from "@/types/release";
 
 export default function Pkg(
   props: LngProps & {
