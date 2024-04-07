@@ -8,4 +8,5 @@ export { default as Microsoft } from "./microsoft";
 export { default as Linux } from "./linux";
 export { default as Twitter } from "./twitter";
 export { default as Google } from "./google";
+export { default as Loading } from "./loading";
 export { default as Test } from "./test";
