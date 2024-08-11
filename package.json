@@ -14,7 +14,7 @@
     "@octokit/rest": "^21.0.1",
     "@tsparticles/engine": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
-    "accept-language": "^3.0.18",
+    "accept-language": "^3.0.20",
     "classnames": "^2.5.1",
     "contentlayer": "^0.3.4",
     "date-fns": "^3.6.0",
