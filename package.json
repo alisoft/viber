@@ -18,7 +18,7 @@
     "classnames": "^2.5.1",
     "contentlayer": "^0.3.4",
     "date-fns": "^4.1.0",
-    "focus-trap-react": "^10.2.3",
+    "focus-trap-react": "^10.3.0",
     "framer-motion": "^11.5.5",
     "http-status": "^1.7.4",
     "i18next": "^23.15.1",
